@@ -1,0 +1,14 @@
+class Float2
+{
+	public static void main(String args[])
+	{
+		float[] a = {6, 1, 8, 10, 60};
+		System.out.println("*******************");
+		System.out.println("Index \t values");
+		System.out.println("*******************");
+		for (int i=0; i<a.length; i++)
+		{
+			System.out.println(i+ "\t" +a[i]);
+		}
+	}
+}

@@ -1,0 +1,15 @@
+class Summation2
+{
+	public static void main(String args[])
+	{
+		int n = 17894;
+		int sum = 1;
+		while (n!= 0)
+		{
+			int rem = n%10;
+			sum = rem * rem;
+			n = n/10;
+		}
+		System.out.println(sum);
+	}
+}

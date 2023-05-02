@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class Demo3
+{
+	public static void main(String args[])
+	{
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the Starting number:");
+		int a = s.nextInt();
+		System.out.println("Enter the Ending number:");
+		int b = s.nextInt();
+		System.out.println("Choose the 1 option");
+		System.out.println("1. Asending order numbers:");
+		System.out.println("2.Desending order numbers:");
+		int c = s.nextInt();
+		switch(c)
+		{
+			case 1: while (a <= b)
+			{
+			System.out.println(a);
+			a++;
+			}
+			break;
+			case 2: while (b >= a)
+			{
+				System.out.println(b);
+				b--;
+			}
+			break;
+			default: break;
+		}
+
+	}
+}

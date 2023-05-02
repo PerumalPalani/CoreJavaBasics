@@ -1,0 +1,18 @@
+class Summation5
+{
+	public static void main(String args[])
+	{
+		int b = 1257894635;
+		int count = 0;
+		while (b!= 0)
+		{
+			int rem = b%10;
+			if (rem%2 == 1)
+			{
+				count++;
+			}
+			b = b/10;
+		}
+		System.out.println("Number of odd numbers are:" +count);
+	}
+}

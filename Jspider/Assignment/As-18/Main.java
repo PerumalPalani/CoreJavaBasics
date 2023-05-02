@@ -1,0 +1,29 @@
+class Redbus
+{
+	static void book(int no)
+	{
+		System.out.println("Enter the number of seats:" +no);
+	}
+	static void book(String bustype)
+	{
+		System.out.println("Enter the Bustype:" +bustype);
+	}
+	static void book(int no, String bustype)
+	{
+		System.out.println("Enter the number of seats are:"+no+"\tBustype is:" +bustype);
+	}
+	static void book(String bustype, int no)
+	{
+		System.out.println("Enter the bustype is:" +bustype+ "\tnumber of seats:"+no);
+	}
+}
+class Main
+{
+	public static void main(String args[])
+	{
+		Redbus.book(5);
+		Redbus.book("Sleeper");
+		Redbus.book(10, "Push seats");
+		Redbus.book("Sleeper", 20);
+	}
+}

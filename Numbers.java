@@ -1,0 +1,9 @@
+class Numbers
+{
+public static void main(String args[])
+{
+int x;
+for(x=0; x<100; ++x)
+System.out.println("this is x:" +x);
+}
+}

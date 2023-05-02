@@ -1,0 +1,29 @@
+class Gpay
+{
+	static void pay(int no)
+	{
+		System.out.println("Payment via:" +no);
+	}
+	static void pay(String text)
+	{
+		System.out.println("Payment bank details via:" +text);
+	}
+	static void pay(int no, String text)
+	{
+		System.out.println("Payment number:"+no+"\t Bank payment via:" +text);
+	}
+	static void pay(String text, int no)
+	{
+		System.out.println("Bank payment via:" +text+ "\t Payment number:"+no);
+	}
+}
+class Googlepay
+{
+	public static void main(String args[])
+	{
+		Gpay.pay(5);
+		Gpay.pay("SBI");
+		Gpay.pay(10, "ICICI");
+		Gpay.pay("Axis", 20);
+	}
+}
